@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./variables.css";
 import InteractiveBackground from "./components/InteractiveBackground";
 import ThemeToggle from "./components/ThemeToggle";
+import CelebrateSection from "./components/FireWork/CelebrateSection";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     <div className="body">
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       />
     </div>
     <ThemeToggle />
+    <CelebrateSection/>
   </>,
 );
