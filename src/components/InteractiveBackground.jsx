@@ -6,9 +6,9 @@ const InteractiveBackground = ({
   defaultParticles = 400,
   planetCount = 4,
   ringedPlanetCount = 15,
-  speedMultiplier = 1.5, // Overall speed of particles & planets 1
+  speedMultiplier = 1.1, // Overall speed of particles & planets 1
   coreFollowSpeed = 0.06, // How fast the central sphere follows mouse  0.05
-  attractionStrength = 0.03, // Strength of attraction toward the sphere  0.015
+  attractionStrength = 0.015, // Strength of attraction toward the sphere  0.015
 }) => {
   const svgRef = useRef(null);
 
